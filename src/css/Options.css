@@ -1,0 +1,79 @@
+.main-block{
+    /* background-color: antiquewhite; */
+    /* border: 1px solid black; */
+    height: 100%;
+    /* margin-top: 2%; */
+    justify-content: center;
+    gap: 11%;
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row;
+}
+.main-block h1{
+    margin-top: 160px;
+}
+.images{
+    background-color: aliceblue;
+    border-radius: 15%;
+    margin: 5% 5% 0% 5%;
+    padding: 2%;
+    height: 15%;
+    width: 15%;
+    cursor: pointer;
+}
+.images:hover{
+    transform: scale(1.1);
+    background-color:aliceblue;
+    display: hidden;
+}
+.option-name{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.shop-name{
+    /* background-color: antiquewhite; */
+    display: flex;
+    margin-left: 1px;
+    flex-direction: row;
+    /* gap: 1%; */
+    justify-content: center;
+    letter-spacing:10px ;
+}
+.optionh1{
+    /* background-color: rgb(70, 53, 53); */
+    margin-left: 10%;
+    font-size: 40px;
+    /* font-style: italic; */
+    color: black;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 1%;
+}
+
+h2{
+    color: black;
+}
+.slideshow-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+  }
+  
+  .each-slide img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover; 
+    opacity: 0.3; 
+  }
+  .enter-as{
+    word-spacing: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }
